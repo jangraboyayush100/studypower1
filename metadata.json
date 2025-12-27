@@ -1,0 +1,7 @@
+{
+  "name": "Study Power",
+  "description": "A comprehensive educational platform designed to empower students with modern learning tools, institution partnerships, and an AI-driven study assistant.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
