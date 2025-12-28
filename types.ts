@@ -7,6 +7,7 @@ export interface Institution {
   image: string;
   location: string;
   rating: number;
+  keyUrl?: string;
 }
 
 export interface Feature {

@@ -4,8 +4,79 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Study Power - EMPOWER YOU STUDY BY FREE BATCHES!</title>
+    
+    <!-- Primary SEO Meta Tags -->
+    <title>Study End - Free Premium Batches & Educational Study Materials</title>
+    <meta name="title" content="Study End - Free Premium Batches & Educational Study Materials">
+    <meta name="description" content="Access free high-quality study batches, premium materials for IIT JEE, NEET, and board exams. Empower your education with PadhLeak AI and Next Toppers at Study End.">
+    <meta name="keywords" content="free study batches, premium study materials, IIT JEE free notes, NEET preparation, PadhLeak AI, Next Toppers, Study End, online education India, free coaching, educational resources">
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="English">
+    <meta name="author" content="Study End Team">
+    <link rel="canonical" href="https://studyend.com/">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://studyend.com/">
+    <meta property="og:title" content="Study End - Empower Your Study with Free Premium Batches">
+    <meta property="og:description" content="The ultimate educational platform offering free batches and elite materials for students worldwide. Join 50,000+ students today.">
+    <meta property="og:image" content="https://image2url.com/r2/bucket3/images/1766856611788-b73eb973-25d0-4dcf-82e4-0578778f7cf3.jpeg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://studyend.com/">
+    <meta property="twitter:title" content="Study End - Free Educational Resources & AI Assistant">
+    <meta property="twitter:description" content="Get premium access to educational institutions like Next Toppers and PadhLeak AI for free. Join our growing community.">
+    <meta property="twitter:image" content="https://image2url.com/r2/bucket3/images/1766856611788-b73eb973-25d0-4dcf-82e4-0578778f7cf3.jpeg">
+
+    <!-- Structured Data (JSON-LD) for Google Rich Snippets -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Study End",
+      "url": "https://studyend.com/",
+      "logo": "https://image2url.com/r2/bucket3/images/1766856611788-b73eb973-25d0-4dcf-82e4-0578778f7cf3.jpeg",
+      "description": "Comprehensive educational platform providing free study materials and premium institution batches.",
+      "sameAs": [
+        "https://t.me/studyendofficial"
+      ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Course",
+      "name": "IIT JEE & NEET Free Batches",
+      "description": "Premium quality educational content for engineering and medical entrance exams provided free of cost.",
+      "provider": {
+        "@type": "Organization",
+        "name": "Study End",
+        "sameAs": "https://studyend.com/"
+      }
+    }
+    </script>
+
     <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        (function() {
+            const originalInfo = console.info;
+            const originalWarn = console.warn;
+            const isBabelWarning = (args) => 
+                args[0] && 
+                typeof args[0] === 'string' && 
+                (args[0].includes('Be sure to precompile') || args[0].includes('in-browser Babel transformer'));
+            
+            console.info = function(...args) {
+                if (isBabelWarning(args)) return;
+                originalInfo.apply(console, args);
+            };
+            console.warn = function(...args) {
+                if (isBabelWarning(args)) return;
+                originalWarn.apply(console, args);
+            };
+        })();
+    </script>
     <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <style>
@@ -24,7 +95,6 @@
             color: #1e293b;
         }
 
-        /* Custom Scrollbar */
         ::-webkit-scrollbar {
             width: 10px;
         }
@@ -54,16 +124,9 @@
             background-clip: text;
         }
 
-        /* Advanced Animations */
         @keyframes float {
             0%, 100% { transform: translateY(0) rotate(0deg); }
             50% { transform: translateY(-15px) rotate(1deg); }
-        }
-
-        @keyframes blob-move {
-            0%, 100% { transform: translate(0, 0) scale(1); }
-            33% { transform: translate(50px, -80px) scale(1.1); }
-            66% { transform: translate(-30px, 30px) scale(0.9); }
         }
 
         @keyframes shine {
@@ -73,10 +136,6 @@
 
         .animate-float {
             animation: float 6s ease-in-out infinite;
-        }
-
-        .animate-blob {
-            animation: blob-move 20s infinite alternate ease-in-out;
         }
 
         .btn-shine {
@@ -92,13 +151,11 @@
             height: 100%;
             background: linear-gradient(to right, transparent, rgba(255,255,255,0.3), transparent);
             transform: skewX(-25deg);
-            transition: none;
         }
         .btn-shine:hover::after {
             animation: shine 0.75s forwards;
         }
 
-        /* Reveal on Scroll Core */
         .reveal {
             opacity: 0;
             transform: translateY(40px);
@@ -137,12 +194,6 @@
         .stagger-1 { transition-delay: 100ms; }
         .stagger-2 { transition-delay: 200ms; }
         .stagger-3 { transition-delay: 300ms; }
-        .stagger-4 { transition-delay: 400ms; }
-
-        .page-blur {
-            filter: blur(10px);
-            transition: filter 0.6s ease-in-out;
-        }
     </style>
 <script type="importmap">
 {
